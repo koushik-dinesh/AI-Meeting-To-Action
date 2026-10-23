@@ -2,7 +2,7 @@
 
 **Team name:** Phantom
 **Team members:** Aaryan Sharma, R Sudharsan, Koushik Dinesh, Ahmad Irfan, Keerthan Vinay
-
+Koushik Dinesh - Frontend and Backend, Aaryan Sharma - Frontend , R Sudharsan - Testing
 Turns meeting transcripts into reviewed, assigned action items.
 
 Upload or capture a meeting transcript, let an AI model propose action items with evidence from the transcript, review and approve them as an admin, then email each person their items and track progress in a personal task portal.
