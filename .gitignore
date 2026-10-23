@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files (never commit real values)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local Claude Code preview config (contains machine-specific paths)
+.claude/launch.json

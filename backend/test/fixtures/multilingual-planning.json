@@ -1,0 +1,8 @@
+{
+  "segments": [
+    { "segment_id": "m1", "speaker": "Ana García", "text": "Yo enviaré el informe de ventas el viernes.", "start": 3.2, "end": 6.0, "language": "es", "completed": true, "confidence": 0.94 },
+    { "segment_id": "m2", "speaker": "Jonas Weber", "text": "Ich kümmere mich bis morgen um die Übersetzung.", "start": 7.1, "end": 10.4, "language": "de", "completed": true, "confidence": 0.91 },
+    { "segment_id": "m3", "speaker": "Jane Liu", "text": "Thanks both, that covers the launch materials.", "start": 11.0, "end": 13.5, "language": "en", "completed": true, "confidence": 0.97 },
+    { "segment_id": "m4", "speaker": "", "text": "draft words", "start": 14.0, "end": 15.0, "language": "en", "completed": false }
+  ]
+}
