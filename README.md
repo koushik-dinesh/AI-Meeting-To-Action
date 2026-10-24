@@ -48,7 +48,7 @@ Upload or capture a meeting transcript, let an AI model propose action items wit
 - Optional: import a transcript from the **Vexa meeting bot** (see [Optional: Vexa meeting bot](#optional-vexa-meeting-bot)). Speakers, timestamps and languages are kept.
 - An existing transcript is never overwritten automatically.
 
-### 3. AI action-item extraction (optional)
+### 3. AI action-item extraction
 - A background **worker** reads a meeting's transcript and proposes action items.
 - Every saved item carries **evidence**: a quote that is checked against the stored transcript segments.
 - Items with ownership or deadline problems are kept but **flagged**, with a description of the problem.
@@ -362,7 +362,7 @@ For real sending:
 
 ---
 
-## Optional: Vexa meeting bot
+## Vexa meeting bot
 
 Vexa is a separate open-source project. It runs in its own Docker Compose stack and is **not part of this repo**. This app only calls its REST API from the backend. If Vexa isn't set up, the app still works, and you upload transcripts by hand.
 
